@@ -21,7 +21,7 @@ function Header() {
     return (
         <div>
             <div className={classes.root}>
-                  <AppBar position="static">
+                <AppBar position="static">
                       <Toolbar>
                         <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                           <MenuIcon />
@@ -31,9 +31,9 @@ function Header() {
                         </Typography>
                         <Button color="inherit">Login</Button>
                       </Toolbar>
-                    </AppBar>
-                    </div>
-        </div>
+                </AppBar>
+             </div>
+         </div>
     )
 }
 
